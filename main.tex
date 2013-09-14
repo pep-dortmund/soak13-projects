@@ -1,0 +1,52 @@
+\documentclass[pdftex, twoside, BCOR12mm, parskip=half]{scrartcl}
+
+%%% KOMA Script Optionen
+\KOMAoptions{draft=on}
+
+%%% Tech
+\usepackage[final]{graphicx}
+\usepackage[linktocpage]{hyperref}
+\hypersetup{colorlinks=false, pdfborder={0 0 0}, pdftitle={}, pdfauthor={}}
+
+%%% Typo
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{sansmath}
+\usepackage{enumerate}
+\usepackage{mdwlist}
+\usepackage[activate=normal]{pdfcprot}
+\usepackage[babel]{csquotes}
+
+
+%%% Math
+\usepackage[sumlimits,intlimits,namelimits]{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{slashed}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{bbding}
+
+\begin{document}
+
+\title{Projektdokumentationen \\
+		\large{PeP et Al. SoAk 2013}}
+
+
+\maketitle
+\thispagestyle{empty}
+\setcounter{page}{0}
+\newpage
+\newpage
+\tableofcontents
+\newpage
+
+\section{Astrofotografie}
+\input{astro}
+\section{Geophone}
+\section{Solarofen}
+\section{Wasserrakete}
+
+\end{document}
